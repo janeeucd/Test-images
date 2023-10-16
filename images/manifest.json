@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 2526,
+    "id" : "https://janeeucd.github.io/Test images/images/Z2.2.16.1.35/canvas/",
+    "label" : {
+      "none" : [ "Z2.2.16.1.35" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://janeeucd.github.io/Test images/images/Z2.2.16.1.35/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://janeeucd.github.io/Test images/images/Z2.2.16.1.35/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 79,
+              "height" : 64
+            }, {
+              "width" : 158,
+              "height" : 127
+            }, {
+              "width" : 316,
+              "height" : 254
+            }, {
+              "width" : 632,
+              "height" : 508
+            }, {
+              "width" : 1263,
+              "height" : 1016
+            }, {
+              "width" : 2526,
+              "height" : 2032
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2526,
+            "@id" : "https://janeeucd.github.io/Test images/images/Z2.2.16.1.35",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2032
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2526,
+          "id" : "https://janeeucd.github.io/Test images/images/Z2.2.16.1.35/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2032
+        },
+        "target" : "https://janeeucd.github.io/Test images/images/Z2.2.16.1.35/canvas/"
+      } ]
+    } ],
+    "height" : 2032
+  }, {
     "width" : 3072,
     "id" : "https://janeeucd.github.io/Test images/images/PXL_20221118_145016178/canvas/",
     "label" : {
